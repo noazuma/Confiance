@@ -1,0 +1,13 @@
+html body {
+  height: 100vh;
+  width: 100vh;
+}
+
+a {
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  color: black;
+}
+
+/*Foundation*/
+/*# sourceMappingURL=style.css.map */
