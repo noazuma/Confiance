@@ -6,5 +6,18 @@
 @use "foundation/mixin";
 @use "foundation/variable";
 
-
+/*layout*/
 @use "layout/header";
+@use "layout/footer";
+@use "layout/main";
+
+
+
+
+
+/*object*/
+
+/*component*/
+@use "object/component/text";
+// @use "object/project/";
+// @use "object/utility/";

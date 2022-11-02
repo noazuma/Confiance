@@ -1,13 +1,23 @@
 @charset "UTF-8";
 
+*{
+    font-family: 'M PLUS 1', sans-serif;
+
+
+}
 
 
 html body {
     height: 100vh;
-    width: 100vh
+    width: 100%
+    
 }
 
 a {
     text-emphasis: none;
     color: black;
+}
+
+h1 h2 h3 {
+    color: #fff;
 }
