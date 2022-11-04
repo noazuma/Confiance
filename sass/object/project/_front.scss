@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+
+.p-front {
+
+    &__title {
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    &__top  
+            {background-image: url(/img/top.png);
+            background-size: cover;
+            height: 301.44px;
+}
+}

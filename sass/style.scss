@@ -13,11 +13,16 @@
 
 
 
-
-
 /*object*/
 
 /*component*/
 @use "object/component/text";
-// @use "object/project/";
+
+
+
+/*project*/
+@use "object/project/front";
+@use "object/project/title";
+
+
 // @use "object/utility/";

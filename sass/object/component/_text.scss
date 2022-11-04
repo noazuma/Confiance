@@ -9,5 +9,22 @@
 
 .c-text {
     color: #fff;
-    margin: 0;
+
+    &--top{
+        font-size: 24px;
+    }
+    &--tel {
+        font-size: 15px;
+        padding: 5px 15px 0 200px
+    }
+    &--sub{
+        font-size: 12px;
+        padding: 0 0 0 125px;
+    }
+
+
+
+
+
+
 }
