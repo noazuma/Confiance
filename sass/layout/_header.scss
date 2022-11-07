@@ -4,9 +4,10 @@
 @use "../foundation/variable" as v;
 
 .l-header {
-    width: 100%;
+    // width: 100%;
     height: 300px;
-    background-color: #77CCF0;
+    // background-color: #77CCF0;
+    background-color:v.$bs;
     margin: 0;
     display: inline-block;
 }

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+
+.p-box {
+    height: 23%;
+    width: 80%;
+    background-color: #EEF9FF;
+
+    &--news {
+        padding: 0.6rem;
+        margin:  0 auto;
+        &__group {
+            padding: 0.2rem;
+        }
+    }
+    
+}
