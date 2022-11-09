@@ -15,16 +15,17 @@
 
 /*object*/
 
-/*component*/
-@use "object/component/text";
-
-
-
 
 /*project*/
 @use "object/project/front";
 @use "object/project/title";
 @use "object/project/box";
 
+/*component*/
+@use "object/component/text";
+@use "object/component/wrapper";
 
-// @use "object/utility/";
+/*utility*/
+@use "object/utility/padding10";
+@use "object/utility/padding20";
+@use "object/utility/margin20";

@@ -7,10 +7,12 @@
 }
 
 
-html , body {
+html  {
     height: 100vh;
     width: 100%
-    
+}
+body {
+    width: 100%;
 }
 
 a {
@@ -24,4 +26,8 @@ li {
 
 ul {
     list-style: none;
+}
+
+p {
+    box-sizing: border-box;
 }
