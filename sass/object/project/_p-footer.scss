@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+
+.p-footer {
+    display: flex;
+    color: #fff;
+}

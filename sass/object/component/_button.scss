@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+.c-button {
+    height: 50px;
+    width: 50px;
+}
