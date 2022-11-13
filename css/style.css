@@ -68,8 +68,9 @@ p {
 }
 
 .p-title {
-  margin: 60px 0 0 17px;
-  display: inline;
+  margin: 20px 0 0 17px;
+  display: flex;
+  flex-direction: column;
 }
 
 .p-box {
@@ -171,16 +172,20 @@ p {
 }
 
 .c-button {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   position: fixed;
   top: 28px;
   right: 0;
 }
-
+.c-button :nth-child(2) {
+  margin: 15px 0 15px 0;
+}
 .c-line {
   height: 5px;
-  width: 70px;
+  background-color: #fff;
+  display: block;
+  position: relative;
 }
 
 .u-padding10 {
