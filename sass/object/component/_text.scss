@@ -13,12 +13,25 @@
 
     &--top{
         font-size: 24px;
+        @include m.mq (tab) {
+                font-size: 40px;
+        }
+        @include m.mq(pc){
+                font-size: 48px;
+        }
         
     }
     &--tel {
         font-size: 15px;
-        padding: 7px 15px 0 140px
-
+        padding: 7px 15px 0 140px;
+        @include m.mq (tab) {
+            font-size: 24px;
+            padding: 49.78px 88.89px 112.54px 448px;
+        }
+        @include m.mq(pc){
+                font-size: 40px;
+                padding: 35px 114px 127px 813px;
+        }
     }
     &--sub{
         font-size: 12px;

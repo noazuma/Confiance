@@ -35,7 +35,7 @@ p {
   height: 200px;
   background-color: #1B435D;
   margin: 0;
-  display: inline-block;
+  display: flex;
 }
 
 .l-footer {
@@ -157,6 +157,7 @@ p {
     display: flex;
     left: 60%;
     font-size: 32px;
+    position: absolute;
   }
 }
 
@@ -166,9 +167,31 @@ p {
 .c-text--top {
   font-size: 24px;
 }
+@media screen and (min-width: 605px) {
+  .c-text--top {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .c-text--top {
+    font-size: 48px;
+  }
+}
 .c-text--tel {
   font-size: 15px;
   padding: 7px 15px 0 140px;
+}
+@media screen and (min-width: 605px) {
+  .c-text--tel {
+    font-size: 24px;
+    padding: 49.78px 88.89px 112.54px 448px;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .c-text--tel {
+    font-size: 40px;
+    padding: 35px 114px 127px 813px;
+  }
 }
 .c-text--sub {
   font-size: 12px;
