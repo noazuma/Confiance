@@ -16,5 +16,10 @@
             }
             :nth-child(3) {
             }
-            
-    }
+
+
+            @include m.mq(pc) {
+                display: none;
+        }
+        }
+    

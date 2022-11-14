@@ -6,4 +6,9 @@
 .p-menu {
     position: fixed;
     right: -100%;
+    @include m.mq(pc) {
+        display: flex;
+        left: 60%;
+        font-size: 32px;
+}
 }

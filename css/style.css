@@ -152,6 +152,13 @@ p {
   position: fixed;
   right: -100%;
 }
+@media screen and (min-width: 1162px) {
+  .p-menu {
+    display: flex;
+    left: 60%;
+    font-size: 32px;
+  }
+}
 
 .c-text {
   color: #fff;
@@ -186,11 +193,31 @@ p {
 .c-button :nth-child(2) {
   margin: 15px 0 15px 0;
 }
+@media screen and (min-width: 1162px) {
+  .c-button {
+    display: none;
+  }
+}
+
 .c-line {
   height: 5px;
   background-color: #fff;
   display: block;
   position: relative;
+}
+.c-line .open :nth-of-type(1) {
+  transform: rotate(-45deg);
+}
+.c-line :nth-child(2) {
+  display: none;
+}
+.c-line :nth-of-type(3) {
+  transform: rotate(45deg);
+}
+@media screen and (min-width: 1162px) {
+  .c-line {
+    display: none;
+  }
 }
 
 .u-padding10 {
