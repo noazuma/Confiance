@@ -1,10 +1,12 @@
 $(function() {
 
-$('.p-head__menu').on("click",function () 
+$('.c-button').on("click",function () 
 
 {//ボタンがクリックされたら
 
-  $('.l-sideber').toggleClass('open');
+  $('.c-line').toggleClass('open');
+    //ボタンにopenクラスを付与
+  $('.l-sidebar').toggleClass('open');
     //ボタン自身に openクラスを付与し
   $('.c-cover').toggleClass('active');
     // activeクラスを付与
@@ -20,7 +22,7 @@ $('.c-button__close').on("click",function ()
 
 {//ナビゲーションのリンクがクリックされたら
 
-    $('.l-sideber').removeClass('open');
+    $('.l-sidebar').removeClass('open');
     //ボタンの activeクラスを除去し
     $('.c-cover').removeClass('active');
     //オーバーレイのactiveクラスも除去

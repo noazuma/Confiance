@@ -148,6 +148,11 @@ p {
   color: #fff;
 }
 
+.p-menu {
+  position: fixed;
+  right: -100%;
+}
+
 .c-text {
   color: #fff;
 }
@@ -156,7 +161,7 @@ p {
 }
 .c-text--tel {
   font-size: 15px;
-  padding: 5px 15px 0 170px;
+  padding: 7px 15px 0 140px;
 }
 .c-text--sub {
   font-size: 12px;
