@@ -6,6 +6,11 @@
 .p-menu {
     position: fixed;
     right: -100%;
+
+    &.open {
+        right: 0;
+    }
+
     @include m.mq(pc) {
         display: flex;
         left: 60%;

@@ -152,6 +152,9 @@ p {
   position: fixed;
   right: -100%;
 }
+.p-menu.open {
+  right: 0;
+}
 @media screen and (min-width: 1162px) {
   .p-menu {
     display: flex;

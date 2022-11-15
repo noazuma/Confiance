@@ -6,7 +6,7 @@ $('.c-button').on("click",function ()
 
   $('.c-line').toggleClass('open');
     //ボタンにopenクラスを付与
-  $('.l-sidebar').toggleClass('open');
+  $('.p-menu').toggleClass('open');
     //ボタン自身に openクラスを付与し
   $('.c-cover').toggleClass('active');
     // activeクラスを付与
@@ -18,7 +18,7 @@ $('.c-button').on("click",function ()
   // メイン固定
 });
 
-$('.c-button__close').on("click",function () 
+$('.c-button').on("click",function () 
 
 {//ナビゲーションのリンクがクリックされたら
 
@@ -38,15 +38,15 @@ $(window).resize(function(){
 
   
     let width = $(window).width();
-   
-   
+  
+  
     // 条件を設定する
     if (width >= 1025) {
-      $(".l-sideber").css("transition", "none");}
+      $(".l-sidebar").css("transition", "none");}
 
     else if (width < 1024) {
-      $(".l-sideber").css("transition", "");}
+      $(".l-sidebar").css("transition", "");}
   }
- 
+  
 );
 });
