@@ -8,11 +8,15 @@
     right: -100%;
 
     &.open {
-        right: 0;
+        position:absolute;
+        top: 10%;
+        right: 8%;
+
     }
 
     @include m.mq(pc) {
         display: flex;
+        top:6%;
         left: 60%;
         font-size: 32px;
         position: absolute;

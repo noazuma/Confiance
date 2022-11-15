@@ -10,6 +10,7 @@ html {
 body {
   width: 100%;
   min-width: 390px;
+  min-height: 100%;
 }
 
 a {
@@ -50,6 +51,19 @@ p {
   width: 100%;
 }
 
+.l-sidebar {
+  position: absolute;
+  height: 100%;
+  width: 30%;
+  z-index: 1000;
+  top: 0;
+}
+.l-sidebar.nav {
+  right: 0;
+  transition: all 0.6s;
+  background-color: #D5EEFF;
+}
+
 .p-front__title {
   display: flex;
   font-size: 24px;
@@ -61,7 +75,7 @@ p {
   background-position: center center;
   height: 301.44px;
 }
-@media screen and (min-width: 605px) {
+@media screen and (min-width: 805px) {
   .p-front__top {
     height: 350px;
   }
@@ -81,13 +95,13 @@ p {
   margin: 0 auto;
   width: 350px;
 }
-@media screen and (min-width: 605px) {
+@media screen and (min-width: 805px) {
   .p-box--news {
     height: 300px;
     width: 710px;
   }
 }
-@media screen and (min-width: 605px) and (min-width: 1162px) {
+@media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--news {
     height: 350px;
     width: 1200px;
@@ -111,13 +125,13 @@ p {
   height: 284.21px;
   width: 350px;
 }
-@media screen and (min-width: 605px) {
+@media screen and (min-width: 805px) {
   .p-box--menu__open {
     height: 308px;
     width: 710px;
   }
 }
-@media screen and (min-width: 605px) and (min-width: 1162px) {
+@media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--menu__open {
     height: 350px;
     width: 1200px;
@@ -130,13 +144,13 @@ p {
   height: 284.21px;
   width: 350px;
 }
-@media screen and (min-width: 605px) {
+@media screen and (min-width: 805px) {
   .p-box--menu__support {
     height: 308px;
     width: 710px;
   }
 }
-@media screen and (min-width: 605px) and (min-width: 1162px) {
+@media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--menu__support {
     height: 350px;
     width: 1200px;
@@ -153,11 +167,14 @@ p {
   right: -100%;
 }
 .p-menu.open {
-  right: 0;
+  position: absolute;
+  top: 10%;
+  right: 8%;
 }
 @media screen and (min-width: 1162px) {
   .p-menu {
     display: flex;
+    top: 6%;
     left: 60%;
     font-size: 32px;
     position: absolute;
@@ -170,7 +187,7 @@ p {
 .c-text--top {
   font-size: 24px;
 }
-@media screen and (min-width: 605px) {
+@media screen and (min-width: 805px) {
   .c-text--top {
     font-size: 40px;
   }
@@ -184,21 +201,31 @@ p {
   font-size: 15px;
   padding: 7px 15px 0 140px;
 }
-@media screen and (min-width: 605px) {
+@media screen and (min-width: 805px) {
   .c-text--tel {
     font-size: 24px;
-    padding: 49.78px 88.89px 112.54px 448px;
   }
 }
 @media screen and (min-width: 1162px) {
   .c-text--tel {
     font-size: 40px;
-    padding: 35px 114px 127px 813px;
   }
 }
 .c-text--sub {
   font-size: 12px;
   padding: 0 0 0 125px;
+}
+@media screen and (min-width: 805px) {
+  .c-text--sub {
+    font-size: 14px;
+    padding: 0 0 0 200px;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .c-text--sub {
+    font-size: 20px;
+    padding: 0 0 0 315px;
+  }
 }
 
 .c-wrapper {

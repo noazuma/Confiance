@@ -8,8 +8,8 @@ $('.c-button').on("click",function ()
     //ボタンにopenクラスを付与
   $('.p-menu').toggleClass('open');
     //ボタン自身に openクラスを付与し
-  $('.c-cover').toggleClass('active');
-    // activeクラスを付与
+  $('.l-sidebar').toggleClass('nav');
+    //open
   $('.c-line__menu1').toggleClass('open');
   // バツ動き1
   $('.c-line__menu2').toggleClass('open');

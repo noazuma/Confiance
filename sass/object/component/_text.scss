@@ -26,21 +26,21 @@
         padding: 7px 15px 0 140px;
         @include m.mq (tab) {
             font-size: 24px;
-            padding: 49.78px 88.89px 112.54px 448px;
         }
         @include m.mq(pc){
                 font-size: 40px;
-                padding: 35px 114px 127px 813px;
         }
     }
     &--sub{
         font-size: 12px;
         padding: 0 0 0 125px;
+        @include m.mq (tab) {
+            font-size: 14px;
+            padding: 0 0 0 200px;
+        }
+        @include m.mq(pc){
+            font-size: 20px;
+            padding: 0 0 0 315px;
+        }
     }
-
-
-
-
-
-
 }
