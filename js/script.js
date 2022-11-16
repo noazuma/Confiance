@@ -10,7 +10,7 @@ $('.c-button').on("click",function ()
     //ボタン自身に openクラスを付与し
   $('.l-sidebar').toggleClass('nav');
     //open
-  $('.c-line__menu1').toggleClass('open');
+  $('.c-button').toggleClass('open');
   // バツ動き1
   $('.c-line__menu2').toggleClass('open');
   // バツ動き2

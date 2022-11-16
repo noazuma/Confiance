@@ -37,7 +37,7 @@
         flex-direction: column;
         align-items: center;
         &__open{ 
-                background-image: url(/img/open.png);
+                background-image: url(/img/open-sp.png);
                 background-size: cover;
                 background-position: center center;
                 height: 284.21px;
@@ -46,6 +46,7 @@
                     height: 308px;
                     width: 710px;
                     @include m.mq(pc) {
+                        background-image: url(/img/open.png);
                         height: 350px;
                         width: 1200px;
                 }

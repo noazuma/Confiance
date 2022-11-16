@@ -9,17 +9,10 @@
     position: fixed;
     top: 28px;
     right: 0;
-    &__br   :nth-child(1) {
-            }
-            :nth-child(2) {
-            margin: 15px 0 15px 0;
-            }
-            :nth-child(3) {
-            }
-
-
-            @include m.mq(pc) {
-                display: none;
+    :nth-child(2) {
+        margin: 15px 0 15px 0;
         }
-        }
-    
+    &.open {
+        transform: rotate(90deg);
+    }
+}

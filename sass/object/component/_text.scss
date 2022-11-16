@@ -29,6 +29,7 @@
         }
         @include m.mq(pc){
                 font-size: 40px;
+                padding: 7px 15px 0 120px;
         }
     }
     &--sub{

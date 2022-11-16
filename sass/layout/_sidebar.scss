@@ -11,10 +11,11 @@
     width: 30%;
     z-index: 1000;
     top:0;
-    
+    right: 0;
+    transition: all 0.6s;
     &.nav {
         right: 0;
         transition: all 0.6s;
-        background-color: #D5EEFF;
+        background-color: #F99F48;
     }
 }

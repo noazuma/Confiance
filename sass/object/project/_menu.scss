@@ -11,14 +11,15 @@
         position:absolute;
         top: 10%;
         right: 8%;
-
+        transition: all .6;
     }
 
     @include m.mq(pc) {
         display: flex;
         top:6%;
-        left: 60%;
+        right: 40%;
         font-size: 32px;
         position: absolute;
+        width: max-content;
 }
 }
