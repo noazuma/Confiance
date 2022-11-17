@@ -11,9 +11,7 @@ $('.c-button').on("click",function ()
   $('.l-sidebar').toggleClass('nav');
     //open
   $('.c-button').toggleClass('open');
-  // バツ動き1
-  $('.c-line__menu2').toggleClass('open');
-  // バツ動き2
+  // 棒動き
   $('body').css('overflow','hidden');
   // メイン固定
 });
@@ -24,11 +22,11 @@ $('.c-button').on("click",function ()
 
     $('.l-sidebar').removeClass('open');
     //ボタンの activeクラスを除去し
-    $('.c-cover').removeClass('active');
+    // $('.p-menu').removeClass('open');
     //オーバーレイのactiveクラスも除去
-    $('.c-line__menu1').removeClass('open');
+    $('.c-line').removeClass('open');
     // バツ動き1　除去
-    $('.c-line__menu2').removeClass('open');
+    // $('.c-line__menu2').removeClass('open');
     // バツ動き2 除去
     $('body').css('overflow','visible');
     // 初期値に戻す

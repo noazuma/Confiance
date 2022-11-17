@@ -6,9 +6,10 @@
 
 .p-box {
     background-color: #D5EEFF;
-    @include m.mq(tab) {
+    padding: 0.8rem;
+    // @include m.mq(tab) {
 
-    }
+    // }
 
 
     &--news {
@@ -18,9 +19,11 @@
         @include m.mq(tab) {
             height: 300px;
             width: 710px;
+            padding: 1rem;
             @include m.mq(pc) {
                 height: 350px;
                 width: 1200px;
+                padding: 3rem;
         }
         }
         
@@ -43,6 +46,7 @@
                 height: 284.21px;
                 width: 350px;
                 @include m.mq(tab) {
+                    background-image: url(/img/open-tab.png);
                     height: 308px;
                     width: 710px;
                     @include m.mq(pc) {
@@ -53,15 +57,17 @@
                 }
         }
         &__support {
-                background-image: url(/img/support.png);
+                background-image: url(/img/support-sp.png);
                 background-size: cover;
                 background-position: center center;
                 height: 284.21px;
                 width: 350px;
                 @include m.mq(tab) {
+                    background-image: url(/img/support-tab.png);
                     height: 308px;
                     width: 710px;
                     @include m.mq(pc) {
+                        background-image: url(/img/support.png);
                         height: 350px;
                         width: 1200px;
                 }
