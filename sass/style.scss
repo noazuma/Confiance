@@ -29,8 +29,10 @@
 @use "object/component/wrapper";
 @use "object/component/button";
 @use "object/component/line";
+@use "object/component/position";
 
 /*utility*/
 @use "object/utility/padding10";
 @use "object/utility/padding20";
 @use "object/utility/margin20";
+@use "object/utility/font-size";

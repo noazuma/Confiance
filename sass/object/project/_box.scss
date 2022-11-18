@@ -15,14 +15,15 @@
     &--news {
         padding: 0.6rem;
         margin:  0 auto;
-        width: 350px;
+        height: 100%;
+        width: 85%;
         @include m.mq(tab) {
-            height: 300px;
-            width: 710px;
+            // height: 300px;
+            // width: 710px;
             padding: 1rem;
             @include m.mq(pc) {
-                height: 350px;
-                width: 1200px;
+                // height: 350px;
+                // width: 1200px;
                 padding: 3rem;
         }
         }
@@ -44,15 +45,15 @@
                 background-size: cover;
                 background-position: center center;
                 height: 284.21px;
-                width: 350px;
+                width: 85%;
                 @include m.mq(tab) {
                     background-image: url(/img/open-tab.png);
                     height: 308px;
-                    width: 710px;
+                    // width: 710px;
                     @include m.mq(pc) {
                         background-image: url(/img/open.png);
                         height: 350px;
-                        width: 1200px;
+                        // width: 1200px;
                 }
                 }
         }
@@ -61,18 +62,30 @@
                 background-size: cover;
                 background-position: center center;
                 height: 284.21px;
-                width: 350px;
+                width: 85%;
                 @include m.mq(tab) {
                     background-image: url(/img/support-tab.png);
                     height: 308px;
-                    width: 710px;
+                    // width: 710px;
                     @include m.mq(pc) {
                         background-image: url(/img/support.png);
                         height: 350px;
-                        width: 1200px;
+                        // width: 1200px;
                 }
                 }
         }
     }
-
+    &--text {
+        padding: 0.6rem;
+        margin:  0 auto;
+        width: 95%;
+        @include m.mq(tab) {
+            // width: 710px;
+            padding: 1rem;
+        }
+            @include m.mq(pc) {
+                // width: 1200px;
+                padding: 3rem;
+        }
+}
 }

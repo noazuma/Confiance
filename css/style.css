@@ -114,19 +114,16 @@ p {
 .p-box--news {
   padding: 0.6rem;
   margin: 0 auto;
-  width: 350px;
+  height: 100%;
+  width: 85%;
 }
 @media screen and (min-width: 805px) {
   .p-box--news {
-    height: 300px;
-    width: 710px;
     padding: 1rem;
   }
 }
 @media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--news {
-    height: 350px;
-    width: 1200px;
     padding: 3rem;
   }
 }
@@ -146,20 +143,18 @@ p {
   background-size: cover;
   background-position: center center;
   height: 284.21px;
-  width: 350px;
+  width: 85%;
 }
 @media screen and (min-width: 805px) {
   .p-box--menu__open {
     background-image: url(/img/open-tab.png);
     height: 308px;
-    width: 710px;
   }
 }
 @media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--menu__open {
     background-image: url(/img/open.png);
     height: 350px;
-    width: 1200px;
   }
 }
 .p-box--menu__support {
@@ -167,27 +162,40 @@ p {
   background-size: cover;
   background-position: center center;
   height: 284.21px;
-  width: 350px;
+  width: 85%;
 }
 @media screen and (min-width: 805px) {
   .p-box--menu__support {
     background-image: url(/img/support-tab.png);
     height: 308px;
-    width: 710px;
   }
 }
 @media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--menu__support {
     background-image: url(/img/support.png);
     height: 350px;
-    width: 1200px;
+  }
+}
+.p-box--text {
+  padding: 0.6rem;
+  margin: 0 auto;
+  width: 95%;
+}
+@media screen and (min-width: 805px) {
+  .p-box--text {
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .p-box--text {
+    padding: 3rem;
   }
 }
 
 .p-footer {
   display: flex;
   color: #fff;
-  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .p-menu {
@@ -294,6 +302,14 @@ p {
   }
 }
 
+.c-position {
+  position: absolute;
+  left: 50%;
+}
+.c-position__70 {
+  left: 70%;
+}
+
 .u-padding10 {
   padding: 10px;
 }
@@ -304,6 +320,20 @@ p {
 
 .u-margin20 {
   margin: 20px;
+}
+
+.u-font-size {
+  font-size: 16px;
+}
+@media screen and (min-width: 805px) {
+  .u-font-size {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .u-font-size {
+    font-size: 36px;
+  }
 }
 
 /*Foundation*/

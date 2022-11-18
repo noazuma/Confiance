@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+
+
+
+.u-font-size {
+    font-size: 16px;
+    @include m.mq(tab){
+        font-size: 24px;
+    }
+    @include m.mq(pc){
+        font-size: 36px;
+    }
+}
