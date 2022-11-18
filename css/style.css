@@ -203,14 +203,14 @@ p {
   right: -100%;
 }
 .p-menu.open {
-  top: 10%;
+  top: 20%;
   right: 8%;
   transition: all 0.6;
 }
 @media screen and (min-width: 1162px) {
   .p-menu {
     display: flex;
-    top: 6%;
+    top: 4%;
     right: 40%;
     font-size: 32px;
     position: absolute;
@@ -238,7 +238,7 @@ p {
 }
 .c-text--tel {
   font-size: 15px;
-  padding: 7px 15px 0 140px;
+  padding: 7px 15px 0 120px;
 }
 @media screen and (min-width: 805px) {
   .c-text--tel {
@@ -302,12 +302,14 @@ p {
   }
 }
 
-.c-position {
-  position: absolute;
-  left: 50%;
-}
-.c-position__70 {
-  left: 70%;
+@media screen and (min-width: 805px) {
+  .c-position {
+    position: absolute;
+    left: 50%;
+  }
+  .c-position__70 {
+    left: 70%;
+  }
 }
 
 .u-padding10 {

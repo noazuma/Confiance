@@ -6,6 +6,7 @@
 
 
 .c-position {
+    @include m.mq(tab) {
     position:absolute;
     left: 50%;
     &__70 {
@@ -13,3 +14,4 @@
     }
 
     }
+}

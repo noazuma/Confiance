@@ -9,14 +9,14 @@
 
     &.open {
         // position:absolute;
-        top: 10%;
+        top: 20%;
         right: 8%;
         transition: all .6;
     }
 
     @include m.mq(pc) {
         display: flex;
-        top:6%;
+        top:4%;
         right: 40%;
         font-size: 32px;
         position: absolute;
