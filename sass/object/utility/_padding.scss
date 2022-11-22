@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+
+.u-padding {
+    &__5{
+        padding: 5%;
+    }
+}

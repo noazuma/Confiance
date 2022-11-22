@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+
+
+.c-shadow { 
+    text-shadow: 2px 2px 0 #000;
+}

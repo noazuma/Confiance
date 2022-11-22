@@ -14,4 +14,13 @@
     @include m.mq(pc){
         font-size: 36px;
     }
+    &__main {
+        font-size: 18px;
+        @include m.mq(tab){
+            font-size: 36px;
+        }
+        @include m.mq(pc){
+            font-size: 42px;
+        }
+    }
 }
