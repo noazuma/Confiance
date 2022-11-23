@@ -10,6 +10,7 @@
 <!-- スタイルシート -->
     <link rel="stylesheet" href="css/ress.css">
     <link rel="stylesheet" href="css/style.css">
+    <?php wp_head(); ?>
 </head>
 
 <body>
@@ -76,6 +77,7 @@
             </div>
         </div>
     </main>
+    <?php wp_footer(); ?>
     <footer class="l-footer p-footer">
 
         <p class="c-position" a href="#">プライバシーポリシー</p>
