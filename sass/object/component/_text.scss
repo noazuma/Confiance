@@ -9,8 +9,6 @@
 
 .c-text {
     color: #fff;
-    // display: inline;
-
     &--top{
         font-size: 24px;
         @include m.mq (tab) {
