@@ -80,7 +80,7 @@ p {
   }
 }
 .p-front__top {
-  background-image: url(/img/top-sp.png);
+  background-image: url(../img/top-sp.png);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -88,14 +88,14 @@ p {
 }
 @media screen and (min-width: 805px) {
   .p-front__top {
-    background-image: url(/img/top-tab.png);
+    background-image: url(../img/top-tab.png);
     width: 100%;
     height: 350px;
   }
 }
 @media screen and (min-width: 1162px) {
   .p-front__top {
-    background-image: url(/img/top.png);
+    background-image: url(../img/top.png);
     height: 500px;
     width: 100%;
   }
@@ -139,7 +139,7 @@ p {
   align-items: center;
 }
 .p-box--menu__open {
-  background-image: url(/img/open-sp.png);
+  background-image: url(../img/open-sp.png);
   background-size: cover;
   background-position: center center;
   height: 284.21px;
@@ -147,18 +147,18 @@ p {
 }
 @media screen and (min-width: 805px) {
   .p-box--menu__open {
-    background-image: url(/img/open-tab.png);
+    background-image: url(../img/open-tab.png);
     height: 308px;
   }
 }
 @media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--menu__open {
-    background-image: url(/img/open.png);
+    background-image: url(../img/open.png);
     height: 350px;
   }
 }
 .p-box--menu__support {
-  background-image: url(/img/support-sp.png);
+  background-image: url(../img/support-sp.png);
   background-size: cover;
   background-position: center center;
   height: 284.21px;
@@ -166,13 +166,13 @@ p {
 }
 @media screen and (min-width: 805px) {
   .p-box--menu__support {
-    background-image: url(/img/support-tab.png);
+    background-image: url(../img/support-tab.png);
     height: 308px;
   }
 }
 @media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--menu__support {
-    background-image: url(/img/support.png);
+    background-image: url(../img/support.png);
     height: 350px;
   }
 }
