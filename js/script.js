@@ -1,4 +1,4 @@
-$(function() {
+jQuery(function($){$(function() {
 
 $('.c-button').on("click",function () 
 
@@ -47,4 +47,5 @@ $(window).resize(function(){
   }
   
 );
+});
 });

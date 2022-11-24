@@ -11,6 +11,7 @@
 
 <body>
 <div class="c-wrapper">
+<?php wp_body_open(); ?>
 <!-- ヘッダー -->
     <header class="l-header">
         <div class="p-title">

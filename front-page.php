@@ -1,19 +1,4 @@
 <?php get_header(); ?>
-<!-- サイドバー -->
-<sidebar class="l-sidebar">
-        
-        <button class="c-button">
-            <span class="c-line c-button__br"></span>
-            <span class="c-line c-button__br"></span>
-            <span class="c-line c-button__br"></span>
-            </button>
-        <nav class="p-menu">
-        <ul class="u-padding10"><a href="#" class="c-text">事業内容</a></ul>
-        <ul class="u-padding10"><a href="#" class="c-text">会社概要</a></ul>
-        <ul class="u-padding10"><a href="#" class="c-text">お問合せ</a></ul>
-    <!-- </div> -->
-        </nav>
-</sidebar>
 <!-- トップ画面 -->
     <main class="l-main">
         <div class="p-front__top">
@@ -52,14 +37,6 @@
             </div>
         </div>
     </main>
-    <?php wp_footer(); ?>
-    <footer class="l-footer p-footer">
-        <p>奈良県宇陀市榛原萩原２６４−１</p>
-        <p class="c-position" a href="#">プライバシーポリシー</p>
-        <p class="c-position c-position__70" a href="#">Copyright © Confiance Ltd.</p>
-    </footer>
-</div>
-<script src="/js/jquery-3.6.1.min.js"></script>
-<script src="/js/script.js"></script>
-</body>
-</html>
+    
+    <?php get_sidebar();?>
+    <?php get_footer(); ?>
