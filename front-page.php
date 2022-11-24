@@ -2,7 +2,7 @@
 <!-- トップ画面 -->
     <main class="l-main">
         <div class="p-front__top">
-            <h1 class="p-front__title c-text c-shadow">障がい福祉コンサルティング</h1>
+            <h1 class="p-front__title c-text c-shadow"><?php bloginfo( 'description' ); ?></h1>
             <P class="c-text c-shadow u-padding20">テキストが入ります。テキストが入ります。</P>
         </div>
         <div class="p-box--news">

@@ -13,6 +13,7 @@ function custom_theme_support(){
     add_theme_support('title-tag');//titleタグのサポートを許可
     add_theme_support( 'automatic-feed-links' );
     register_nav_menus(array(
+        'header-menu'=>'ヘッダーメニュー',
         'main-menu' => 'メインメニュー',
         'footer-menu' => 'フッターメニュー',
     ));

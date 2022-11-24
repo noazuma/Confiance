@@ -25,9 +25,7 @@ $('.c-button').on("click",function ()
     // $('.p-menu').removeClass('open');
     //オーバーレイのactiveクラスも除去
     $('.c-line').removeClass('open');
-    // バツ動き1　除去
     // $('.c-line__menu2').removeClass('open');
-    // バツ動き2 除去
     $('body').css('overflow','visible');
     // 初期値に戻す
 });
