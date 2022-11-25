@@ -9,7 +9,8 @@
 
 .c-text {
     color: #fff;
-    &--top{
+    &--top a{
+        color: #fff;
         font-size: 24px;
         @include m.mq (tab) {
                 font-size: 40px;
@@ -20,6 +21,7 @@
         
     }
     &--tel {
+        color: #fff;
         font-size: 15px;
         padding: 7px 15px 0 120px;
         @include m.mq (tab) {
@@ -31,6 +33,7 @@
         }
     }
     &--sub{
+        color: #fff;
         font-size: 12px;
         padding: 0 0 0 125px;
         @include m.mq (tab) {

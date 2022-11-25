@@ -15,7 +15,9 @@
 <!-- ヘッダー -->
     <header class="l-header">
         <div class="p-title">
-        <h1 class="c-text c-text--top" a href="<?php echo esc_url( home_url( '/' ) ); ?>">株式会社　Confiance</a></h1>
+        <h1 class="c-text c-text--top" ><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+    <?php bloginfo( 'name' ); ?>
+    </a></h1>
         <h3 class="c-text c-text--sub">〜コンフィアンス〜</h3>
         <h2 class="c-text c-text--tel">電話　0745ー86ー1106</h2>
         </div>

@@ -223,20 +223,22 @@ p {
 .c-text {
   color: #fff;
 }
-.c-text--top {
+.c-text--top a {
+  color: #fff;
   font-size: 24px;
 }
 @media screen and (min-width: 805px) {
-  .c-text--top {
+  .c-text--top a {
     font-size: 40px;
   }
 }
 @media screen and (min-width: 1162px) {
-  .c-text--top {
+  .c-text--top a {
     font-size: 48px;
   }
 }
 .c-text--tel {
+  color: #fff;
   font-size: 15px;
   padding: 7px 15px 0 120px;
 }
@@ -252,6 +254,7 @@ p {
   }
 }
 .c-text--sub {
+  color: #fff;
   font-size: 12px;
   padding: 0 0 0 125px;
 }
