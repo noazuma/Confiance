@@ -10,10 +10,10 @@
     // if(have_posts()):  
     //     while(have_posts()):
     //         the_post(); ?>
-        <div class="p-box--menu u-padding20">
+        <div class="p-box--menu u-padding20 u-@charset">
             <div class="u-margin20 u-font-size__main u-padding__5 c-text c-shadow">
             <?php if(has_post_thumbnail()): ?>
-                <?php the_post_thumbnail('full',array('class' => 'p-box--menu')); ?>
+                <?php the_post_thumbnail('full',array('class' => 'u-thumbnail')); ?>
         <?php else: ?>
             <?php endif; ?>
             </div>
