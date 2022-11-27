@@ -139,7 +139,6 @@ p {
   align-items: center;
 }
 .p-box--menu__open {
-  background-image: url(../img/open-sp.png);
   background-size: cover;
   background-position: center center;
   height: 284.21px;
@@ -147,13 +146,11 @@ p {
 }
 @media screen and (min-width: 805px) {
   .p-box--menu__open {
-    background-image: url(../img/open-tab.png);
     height: 308px;
   }
 }
 @media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--menu__open {
-    background-image: url(../img/open.png);
     height: 350px;
   }
 }

@@ -41,17 +41,17 @@
         flex-direction: column;
         align-items: center;
         &__open{ 
-                background-image: url(../img/open-sp.png);
+                // background-image: url(../img/open-sp.png);
                 background-size: cover;
                 background-position: center center;
                 height: 284.21px;
                 width: 85%;
                 @include m.mq(tab) {
-                    background-image: url(../img/open-tab.png);
+                    // background-image: url(../img/open-tab.png);
                     height: 308px;
                     // width: 710px;
                     @include m.mq(pc) {
-                        background-image: url(../img/open.png);
+                        // background-image: url(../img/open.png);
                         height: 350px;
                         // width: 1200px;
                 }
