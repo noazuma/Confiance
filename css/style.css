@@ -108,7 +108,7 @@ p {
 }
 
 .p-box {
-  background-color: #D5EEFF;
+  background-color: #FFF;
   padding: 0.8rem;
 }
 .p-box--news {
@@ -139,6 +139,7 @@ p {
   align-items: center;
 }
 .p-box--menu__open {
+  background-image: url(../img/open-sp.png);
   background-size: cover;
   background-position: center center;
   height: 284.21px;
@@ -146,11 +147,13 @@ p {
 }
 @media screen and (min-width: 805px) {
   .p-box--menu__open {
+    background-image: url(../img/open-tab.png);
     height: 308px;
   }
 }
 @media screen and (min-width: 805px) and (min-width: 1162px) {
   .p-box--menu__open {
+    background-image: url(../img/open.png);
     height: 350px;
   }
 }
@@ -173,18 +176,37 @@ p {
     height: 350px;
   }
 }
-.p-box--text {
+.p-box--menu__single {
+  background-image: url(../img/Contact-sp.png);
+  background-size: cover;
+  background-position: center center;
+  height: 284.21px;
+  width: 85%;
+}
+@media screen and (min-width: 805px) {
+  .p-box--menu__single {
+    background-image: url(../img/Contact-tab.png);
+    height: 308px;
+  }
+}
+@media screen and (min-width: 805px) and (min-width: 1162px) {
+  .p-box--menu__single {
+    background-image: url(../img/Contact-pc.png);
+    height: 350px;
+  }
+}
+.p-box--menu--text {
   padding: 0.6rem;
   margin: 0 auto;
   width: 95%;
 }
 @media screen and (min-width: 805px) {
-  .p-box--text {
+  .p-box--menu--text {
     padding: 1rem;
   }
 }
 @media screen and (min-width: 1162px) {
-  .p-box--text {
+  .p-box--menu--text {
     padding: 3rem;
   }
 }

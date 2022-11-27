@@ -13,7 +13,7 @@
         <div class="p-box--menu u-padding20">
             <div class="u-margin20 u-font-size__main u-padding__5 c-text c-shadow">
             <?php if(has_post_thumbnail()): ?>
-                <?php the_post_thumbnail('full',array('class' => 'p-box--menu__open')); ?>
+                <?php the_post_thumbnail('full',array('class' => 'p-box--menu')); ?>
         <?php else: ?>
             <?php endif; ?>
             </div>

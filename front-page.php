@@ -7,24 +7,11 @@
         </div>
         <div class="p-box--news">
             <ul class="p-box u-font-size">
-                <p>お知らせ</p>
+                
                 <li class="p-box--news__group u-font-size">
-                    <a href="#">
-                        <p class="">2020/4/15</p>
-                        <p class="">ここにお知らせが入りますここにお知らせが入りますここにお知らせが入ります</p>
-                    </a>
-                </li>
-                <li class="p-box--news__group u-font-size">
-                    <a href="#">
-                        <p class="">2020/4/15</p>
-                        <p class="">ここにお知らせが入りますここにお知らせが入りますここにお知らせが入ります</p>
-                    </a>
-                </li>
-                <li class="p-box--news__group u-font-size">
-                    <a href="#">
-                        <p class="">2020/4/15</p>
-                        <p class="">ここにお知らせが入りますここにお知らせが入りますここにお知らせが入ります</p>
-                    </a>
+                        <p class=""><?php echo do_shortcode('[showwhatsnew]'); ?>
+</p>
+                    
                 </li>
             </ul>
         </div>
