@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+
+.menu-item-26, .menu-item-27, .menu-item-28 {
+    padding: 18px;
+    
+    a {
+        color:#FFF;
+    }
+}
+
+main ul li div.whatsnew dl dt {
+    width: auto;
+}

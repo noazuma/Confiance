@@ -3,15 +3,13 @@
     <main class="l-main">
         <div class="p-front__top">
             <h1 class="p-front__title c-text c-shadow"><?php bloginfo( 'description' ); ?></h1>
-            <P class="c-text c-shadow u-padding20">テキストが入ります。テキストが入ります。</P>
+            <!-- <P class="c-text c-shadow u-padding20">テキストが入ります。テキストが入ります。</P> -->
         </div>
         <div class="p-box--news">
             <ul class="p-box u-font-size">
                 
                 <li class="p-box--news__group u-font-size">
-                        <p class=""><?php echo do_shortcode('[showwhatsnew]'); ?>
-</p>
-                    
+                    <?php echo do_shortcode('[showwhatsnew]'); ?>
                 </li>
             </ul>
         </div>

@@ -13,7 +13,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000;
   display: block;
 }
 
@@ -229,7 +229,7 @@ p {
 @media screen and (min-width: 1162px) {
   .p-menu {
     display: flex;
-    top: 4%;
+    top: 10%;
     right: 40%;
     font-size: 32px;
     position: absolute;
@@ -237,6 +237,21 @@ p {
     width: -moz-max-content;
     width: max-content;
   }
+}
+
+.menu-item-26, .menu-item-27, .menu-item-28 {
+  padding: 18px;
+}
+.menu-item-26 a, .menu-item-27 a, .menu-item-28 a {
+  color: #FFF;
+}
+
+main ul li div.whatsnew dl dt {
+  width: auto;
+}
+
+.p-info .div .whatsnew .dt {
+  width: 0px;
 }
 
 .c-text {

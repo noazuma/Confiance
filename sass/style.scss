@@ -23,6 +23,8 @@
 @use "object/project/box";
 @use "object/project/p-footer";
 @use "object/project/menu";
+@use "object/project/_wp.scss";
+@use "object/project/info";
 
 /*component*/
 @use "object/component/text";
