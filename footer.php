@@ -1,12 +1,23 @@
 <footer class="l-footer p-footer">
-<p>奈良県宇陀市榛原萩原２６４−１</p>
-<p class="c-position" a href="#">プライバシーポリシー</p>
-<p class="c-position c-position__70">Copyright © Confiance Ltd.</p>
+
+<?php
+    wp_nav_menu(
+            array(
+                'container' => 'false', //divタグ削除
+                'theme_location' => 'footer-menu', //表示するメニュー名を指定
+                // 'items_wrap' => '<ul class="p-footer__shop" %3$s</ul>', //ul要素のID,classを非表示
+                    )
+                    );
+            ?>
 </footer>
 </div>
-<script src="/js/jquery-3.6.1.min.js"></script>
-<script src="/js/script.js"></script>
+
+
+
+
+
+<?php get_sidebar();?>
 <?php wp_footer(); ?>
 </body>
 </html>
-<?php get_sidebar();?>
+

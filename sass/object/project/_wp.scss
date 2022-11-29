@@ -15,3 +15,23 @@
 main ul li div.whatsnew dl dt {
     width: auto;
 }
+
+footer ul li a {
+    color: #fff
+    ;
+}
+
+footer .menu {
+    display: flex;
+    flex-direction: column;
+    @include m.mq (tab){
+        flex-direction: row;
+    }
+    li {
+        padding: 2px 2px 2px 2px;
+        white-space: nowrap;
+        text-align: center;
+        @include m.mq (tab){
+            padding: 2px 10px 2px 10px;
+    }
+}}

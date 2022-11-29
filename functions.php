@@ -46,5 +46,12 @@ add_filter( 'excerpt_more', 'new_excerpt_more' );
 
 //pタグ自動生成を止める
 
-remove_filter('the_content', 'wpautop'); // 記事の自動整形を無効にする
-remove_filter('the_excerpt', 'wpautop'); // 抜粋の自動整形を無効にする
+add_action('init', function() {
+    remove_filter('the_excerpt', 'wpautop');
+    remove_filter('the_content', 'wpautop');
+    });
+    add_filter('tiny_mce_before_init', function($init) {
+    $init['wpautop'] = false;
+    $init['apply_source_formatting'] = true;
+    return $init;
+    });
