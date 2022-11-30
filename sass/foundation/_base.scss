@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@use "mixin" as m;
+@use "variable" as v;
+
 *{
     font-family: 'M PLUS 1', sans-serif;
 
@@ -33,4 +36,11 @@ ul {
 
 p {
     box-sizing: border-box;
-}
+        font-size: 16px;
+        @include m.mq(tab){
+            font-size: 24px;
+        }
+        @include m.mq(pc){
+            font-size: 36px;
+        }
+    }

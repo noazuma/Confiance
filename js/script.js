@@ -12,36 +12,46 @@ $('.c-button').on("click",function ()
     //open
   $('.c-button').toggleClass('open');
   // 棒動き
-  $('body').css('overflow','hidden');
-  // メイン固定
+  $('body').toggleClass('c-noscroll'); // 追記
 });
 
 $('.c-button').on("click",function () 
 
 {//ナビゲーションのリンクがクリックされたら
 
-    $('.l-sidebar').removeClass('open');
-    //ボタンの activeクラスを除去し
+    // $('.l-sidebar').removeClass('open');
+
     // $('.p-menu').removeClass('open');
-    //オーバーレイのactiveクラスも除去
-    $('.c-line').removeClass('open');
-    // $('.c-line__menu2').removeClass('open');
-    $('body').css('overflow','visible');
-    // 初期値に戻す
+
+    // $('.c-line').removeClass('open');
+
+    // $('.c-button').removeClass('open');
+
 });
 
-$(window).resize(function(){
+$(window).resize(function(){ //window　ブラウザの幅や高さが変更されたら検知して処理
 
   
     let width = $(window).width();
   
   
     // 条件を設定する
-    if (width >= 1025) {
-      $(".l-sidebar").css("transition", "none");}
+    if (width >= 1300) {
+      $(".c-button").removeClass("open");}
 
-    else if (width < 1024) {
-      $(".l-sidebar").css("transition", "");}
+      $('.c-line').removeClass('open');
+
+      $('.p-menu').removeClass('open');
+
+      $('.l-sidebar').removeClass('nav');
+
+      $('.c-button').removeClass('open');
+      
+      $('body').removeClass('c-noscroll'); // 追記
+//tabからpc時へのサイドバーが残らない様にする。
+
+      // else if (width < 1300) {
+      // $(".l-sidebar").css("transition", "");}
   }
   
 );
