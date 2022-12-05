@@ -290,6 +290,10 @@ footer .menu li {
   }
 }
 
+div #wpadminbar {
+  position: fixed;
+}
+
 .p-info .div .whatsnew .dt {
   width: 0px;
 }
@@ -357,7 +361,7 @@ footer .menu li {
   height: 70px;
   width: 70px;
   position: absolute;
-  top: 28px;
+  top: 10%;
   right: 0;
 }
 .c-button :nth-child(2) {
