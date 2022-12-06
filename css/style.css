@@ -63,7 +63,7 @@ p {
 .l-sidebar {
   position: absolute;
   height: 100%;
-  width: 45%;
+  width: 42%;
   z-index: 1000;
   top: 0;
   right: 0;
@@ -473,6 +473,10 @@ input, textarea {
   background-color: orange;
   width: 10%;
   border-radius: 8px;
+}
+
+.u-box--margin {
+  margin: 0 0 0 8%;
 }
 
 /*Foundation*/

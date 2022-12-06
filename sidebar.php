@@ -19,9 +19,4 @@
 
     ) ); 
 ?>
-        <!-- <ul class="u-padding10"><a href="#" class="c-text">事業内容</a></ul>
-        <ul class="u-padding10"><a href="#" class="c-text">会社概要</a></ul>
-        <ul class="u-padding10"><a href="#" class="c-text">お問合せ</a></ul> -->
-    <!-- </div> -->
-        <!-- </nav> -->
 </sidebar>
