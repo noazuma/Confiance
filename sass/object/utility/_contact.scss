@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+
+.u-contact {
+    margin: 7px;
+    @include m.mq (tab){
+        margin: 18px;
+    }
+    @include m.mq (pc){
+        margin: 28px;
+    }
+}
+
+input, textarea{
+    border: #000 solid .1px;
+}
+
+.wpcf7-submit {
+    background-color : orange;
+    width: 10%;
+    border-radius: 8px;
+}

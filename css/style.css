@@ -451,6 +451,30 @@ div #wpadminbar {
   max-height: 100%;
 }
 
+.u-contact {
+  margin: 7px;
+}
+@media screen and (min-width: 805px) {
+  .u-contact {
+    margin: 18px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .u-contact {
+    margin: 28px;
+  }
+}
+
+input, textarea {
+  border: #000 solid 0.1px;
+}
+
+.wpcf7-submit {
+  background-color: orange;
+  width: 10%;
+  border-radius: 8px;
+}
+
 /*Foundation*/
 /*layout*/
 /*object*/
