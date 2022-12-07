@@ -5,6 +5,7 @@
 
 
 .u-box--margin {
+    background-color: antiquewhite;
     margin: 0 5% 0 5%;
     @include m.mq (tab){
         margin: 0 10 0 12%;

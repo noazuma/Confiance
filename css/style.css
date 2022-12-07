@@ -294,6 +294,10 @@ div #wpadminbar {
   position: fixed;
 }
 
+label #text {
+  text-align: left;
+}
+
 .p-info .div .whatsnew .dt {
   width: 0px;
 }
@@ -452,6 +456,8 @@ div #wpadminbar {
 }
 
 .u-contact {
+  background-color: aliceblue;
+  text-align: center;
   margin: 7px;
 }
 @media screen and (min-width: 805px) {
@@ -466,7 +472,8 @@ div #wpadminbar {
 }
 
 input, textarea {
-  border: #000 solid 0.1px;
+  border: #000 solid 0.5px;
+  border-radius: 8px;
 }
 
 .wpcf7-submit {
@@ -476,6 +483,7 @@ input, textarea {
 }
 
 .u-box--margin {
+  background-color: antiquewhite;
   margin: 0 5% 0 5%;
 }
 @media screen and (min-width: 805px) {

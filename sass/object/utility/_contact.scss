@@ -5,6 +5,8 @@
 
 
 .u-contact {
+    background-color: aliceblue;
+    text-align: center;
     margin: 7px;
     @include m.mq (tab){
         margin: 18px;
@@ -15,7 +17,8 @@
 }
 
 input, textarea{
-    border: #000 solid .1px;
+    border: #000 solid .5px;
+    border-radius: 8px;
 }
 
 .wpcf7-submit {
