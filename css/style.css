@@ -294,8 +294,8 @@ div #wpadminbar {
   position: fixed;
 }
 
-label #text {
-  text-align: left;
+.wpcf7-spinner {
+  display: block;
 }
 
 .p-info .div .whatsnew .dt {
