@@ -4,7 +4,6 @@
     <main class="l-main">
         <div class="p-front__top">
         <h1 class="p-front__title c-text c-shadow"><?php bloginfo( 'description' ); ?></h1>
-            <!-- <P class="c-text c-shadow">テキストが入ります。テキストが入ります。</P> -->
         </div>
         <div class="p-box--text">
             <ul class="p-box u-contact">

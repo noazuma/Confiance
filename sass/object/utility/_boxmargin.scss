@@ -5,5 +5,13 @@
 
 
 .u-box--margin {
-    margin :0 0 0 8% ;
+    margin: 0 5% 0 5%;
+    @include m.mq (tab){
+        margin: 0 10 0 12%;
+    }
+    @include m.mq (pc){
+        margin:0 6% 0 8%;
+    }
+    
+    
 }

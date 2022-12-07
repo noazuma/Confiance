@@ -361,7 +361,7 @@ div #wpadminbar {
   height: 70px;
   width: 70px;
   position: absolute;
-  top: 10%;
+  top: 5%;
   right: 0;
 }
 .c-button :nth-child(2) {
@@ -476,7 +476,17 @@ input, textarea {
 }
 
 .u-box--margin {
-  margin: 0 0 0 8%;
+  margin: 0 5% 0 5%;
+}
+@media screen and (min-width: 805px) {
+  .u-box--margin {
+    margin: 0 10 0 12%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .u-box--margin {
+    margin: 0 6% 0 8%;
+  }
 }
 
 /*Foundation*/
