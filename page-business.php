@@ -5,6 +5,14 @@
         <div class="p-front__top">
         <h1 class="p-front__title c-text c-shadow"><?php bloginfo( 'description' ); ?></h1>
         </div>
+        <div class="p-box--menu u-padding20">
+            <div class="u-margin20 u-font-size__main u-padding__5 c-text c-shadow">
+            <?php if(has_post_thumbnail()): ?>
+                <?php the_post_thumbnail('full',array('class' => 'u-thumbnail')); ?>
+        <?php else: ?>
+            <?php endif; ?>
+            </div>
+        </div>
         <div class="p-box--text">
             <ul class="p-box">
                 </li>

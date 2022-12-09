@@ -11,6 +11,20 @@ body {
   min-height: 100%;
 }
 
+h1 {
+  font-size: 24px;
+}
+@media screen and (min-width: 805px) {
+  h1 {
+    font-size: 46px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -124,7 +138,7 @@ p {
 
 .p-box {
   background-color: #FFF;
-  padding: 0.8rem;
+  padding: 2rem;
 }
 .p-box--news {
   padding: 0.6rem;

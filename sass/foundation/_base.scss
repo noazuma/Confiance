@@ -20,6 +20,17 @@ body {
 
 }
 
+h1 {
+    font-size: 24px;
+    
+    @include m.mq(tab) {
+        font-size: 46px;
+    }
+    @include m.mq(pc) {
+        font-size: 70px;
+    }
+}
+
 a {
     text-decoration: none;
     color:#000;
