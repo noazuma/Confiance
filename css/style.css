@@ -312,6 +312,28 @@ div #wpadminbar {
   display: block;
 }
 
+.wpcf7 .red {
+  color: red;
+}
+
+.wpcf7 .left {
+  text-align: left;
+}
+
+.wp-block-table table {
+  font-size: 16px;
+}
+@media screen and (min-width: 805px) {
+  .wp-block-table table {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .wp-block-table table {
+    font-size: 36px;
+  }
+}
+
 .p-info .div .whatsnew .dt {
   width: 0px;
 }
@@ -492,7 +514,7 @@ input, textarea {
 
 .wpcf7-submit {
   background-color: orange;
-  width: 10%;
+  width: 100px;
   border-radius: 8px;
 }
 

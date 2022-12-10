@@ -35,14 +35,31 @@ footer .menu {
             padding: 2px 10px 2px 10px;
     }
 }}
-
+//WP上部
 div #wpadminbar {
     position:  fixed;
 }
 
-// label #text {
-//     text-align: left;
-// }
+
+//コンタクトフォーム周り
 .wpcf7-spinner{
     display: block;
+}
+
+.wpcf7 .red {
+    color: red;
+}
+
+.wpcf7 .left {
+    text-align: left;
+}
+
+.wp-block-table table {
+    font-size: 16px;
+    @include m.mq(tab){
+        font-size: 24px;
+    }
+    @include m.mq(pc){
+        font-size: 36px;
+    }
 }

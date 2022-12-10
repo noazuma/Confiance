@@ -6,16 +6,16 @@
         <h1 class="p-front__title c-text c-shadow"><?php bloginfo( 'description' ); ?></h1>
         </div>
         <div class="p-box--text">
-            <ul class="p-box u-contact">
+            <ul class="u-contact">
                 </li>
                 <li class="p-box--news__group">
                 <?php if (have_posts()): ?>
                 <?php while (have_posts()) : the_post(); ?>
-                        <p class="u-font-size">
+                        <p <?php post_class("u-font-size"); ?>>
                         <?php the_content(); ?>
                         <?php endwhile; ?>
                         <?php else: ?>
-                            
+                        </p>
             <?php endif; ?>
                 </li>
             </ul>

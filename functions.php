@@ -44,14 +44,3 @@ function new_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
 
-//pタグ自動生成を止める
-
-add_action('init', function() {
-    remove_filter('the_excerpt', 'wpautop');
-    remove_filter('the_content', 'wpautop');
-    });
-    add_filter('tiny_mce_before_init', function($init) {
-    $init['wpautop'] = false;
-    $init['apply_source_formatting'] = true;
-    return $init;
-    });

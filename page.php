@@ -19,11 +19,12 @@
                 <li class="p-box--news__group">
                 <?php if (have_posts()): ?>
                 <?php while (have_posts()) : the_post(); ?>
-                        <p class="u-font-size">
+                <p <?php post_class("u-font-size"); ?>>
+                        <?php wp_link_pages(); ?>
                         <?php the_content(); ?>
                         <?php endwhile; ?>
                         <?php else: ?>
-                            
+                        </p>            
             <?php endif; ?>
                 </li>
             </ul>

@@ -9,7 +9,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 <div class="c-wrapper">
 <?php wp_body_open(); ?>
 <!-- ヘッダー -->
